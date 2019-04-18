@@ -3,6 +3,7 @@ package com.abstraction;
 abstract class Bike {
 	
 	// abstract class have constructor and final method
+	@SuppressWarnings("static-access")
 	public Bike() {
 		long interval = 10000;
 		System.out.println("Constructor invoked!");
